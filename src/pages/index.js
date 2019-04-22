@@ -1,21 +1,23 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import SEO from '../components/seo';
+import Home from '../components/pages/Home';
+import MyTheme from '../components/MyTheme';
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <>
+    <SEO title="Home" keywords={[
+      'Tamas Jonas', 'web designer', 'webdesigner', 'photoshop',
+      'css', 'portfolio', 'valid html5', 'css3 development', 'React',
+      'Redux', 'GraphQL'
+    ]} />
+    <MuiThemeProvider theme={MyTheme}>
+      <CssBaseline />
+      <Home />
+    </MuiThemeProvider>
+  </>
 )
 
 export default IndexPage

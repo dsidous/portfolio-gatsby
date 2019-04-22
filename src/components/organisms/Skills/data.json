@@ -1,0 +1,54 @@
+{
+  "main": [
+    {
+      "icon": "LanguageJavascript",
+      "skill": "JavaScript / ES6",
+      "value": 80
+    },
+    {
+      "icon": "React",
+      "skill": "React / React Native / Redux",
+      "value": 80
+    },
+    {
+      "icon": "Graphql",
+      "skill": "GraphQL / Apollo",
+      "value": 60
+    },
+    {
+      "icon": "LanguageHtml5",
+      "skill": "HTML5",
+      "value": 90
+    },
+    {
+      "icon": "LanguageCss3",
+      "skill": "CSS3 / SCSS / SASS / BEM",
+      "value": 90
+    },
+    {
+      "icon": "Adobe",
+      "skill": "Adobe Photoshop",
+      "value": 70
+    }
+  ],
+  "other": [
+    {
+      "skill": "Git / SVN / TFS"
+    },
+    {
+      "skill": "NPM / Webpack"
+    },
+    {
+      "skill": "JSS / Styled-components"
+    },
+    {
+      "skill": "Jest / Enzime"
+    },
+    {
+      "skill": "Bootstrap / Material-UI"
+    },
+    {
+      "skill": "Jira / Asana"
+    }
+  ]
+}
