@@ -78,7 +78,6 @@ function SEO({ description, lang, meta, keywords, title }) {
         )
         .concat(meta)}
     >
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
       <script src="https://cdn.polyfill.io/v2/polyfill.js?features=IntersectionObserver"></script>
     </Helmet>
   )
