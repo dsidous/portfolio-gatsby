@@ -2,7 +2,7 @@ export default [
   {
     image: require("../../images/work/moviesearch.jpg"),
     title: 'Movie database',
-    desc: 'Development - React, GraphQl + Apollo, Bootstrap, SCSS, Firebase authentication and database, TMDB webAPI',
+    desc: 'Development - React, GraphQL + Apollo, Bootstrap, SCSS, Firebase authentication and database, TMDB webAPI',
     url: 'https://movie-search.tamasjonas.com',
   },
   {
