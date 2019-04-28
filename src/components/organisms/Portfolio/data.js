@@ -15,13 +15,13 @@ export default [
     image: require("../../images/thumbs/bodensw_thumb_400.jpg"),
     title: 'Boden feature - Swimwear',
     desc: 'Development - Adatptive design, HTML5, CSS3, jQuery, JSON data, AJAX, dynamic data and template rendering with JSRender',
-    url: 'https://tamasjonas.com/swimwear/index.html',
+    url: 'http://tj-examples.s3-website-us-east-1.amazonaws.com/swimwear/index.html',
   },
   {
     image: require("../../images/work/bodenf1.jpg"),
     title: 'Boden feature - Trouser fit guide',
     desc: 'Development - Resizable design, XHTML, CSS, jQuery',
-    url: 'https://tamasjonas.com/bodenfs/trouser-fit-guide/index.htm',
+    url: 'http://tj-examples.s3-website-us-east-1.amazonaws.com/bodenfs/trouser-fit-guide/index.htm',
   },
   {
     image: require("../../images/work/bodenblog.jpg"),

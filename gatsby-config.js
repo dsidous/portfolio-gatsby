@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-material-ui`,
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
@@ -29,6 +30,12 @@ module.exports = {
         id: "UA-4069714-2",
         includeInDevelopment: false,
         addTagInBody: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'tamasjonas.com'
       },
     },
   ],
