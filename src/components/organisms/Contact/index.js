@@ -67,7 +67,7 @@ class Contact extends PureComponent {
 
       <form
         method="POST"
-        action="https://mailthis.to/jonastamas2@gmail.com"
+        action="https://formspree.io/jonastamas2@gmail.com"
         encType="multipart/form-data"
       >
         <FormGroup
@@ -133,7 +133,7 @@ class Contact extends PureComponent {
 
   handleSubmit = () => {
     const { name, email, message } = this.state;
-    fetch('https://mailthis.to/jonastamas2@gmail.com', {
+    fetch('https://formspree.io/jonastamas2@gmail.com', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
