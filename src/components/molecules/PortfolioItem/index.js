@@ -16,6 +16,13 @@ const styles = theme => ({
       textDecoration: 'none',
     },
   },
+  githubLink: {
+    fontWeight: 'bold',
+    textDecoration: 'none',
+    '&:hover': {
+      textDecoration: 'none',
+    },
+  },
   portfolioText: {
     color: theme.palette.grey[100],
     textAlign: 'left',
@@ -49,31 +56,47 @@ const styles = theme => ({
 
 const PortfolioItem = ({ classes, work }) => ((
   <div className={classes.portfolioItem}>
-    <Link
-      href={work.url}
-      className={classes.portfolioLink}
-      target="_blank"
-      rel="noopener"
-    >
-      <div className={classes.portfolioImage}>
+    <div className={classes.portfolioImage}>
+      <Link
+        href={work.url}
+        className={classes.portfolioLink}
+        target="_blank"
+        rel="noopener"
+      >
         <img src={work.image} alt="" />
-        <div className={classes.portfolioText}>
-          <Typography
-            variant="subtitle1"
-            color="primary"
+      </Link>
+      <div className={classes.portfolioText}>
+        <Typography
+          variant="subtitle1"
+          color="primary"
+        >
+          {work.title}
+        </Typography>
+        <Typography
+          color="primary"
+          paragraph
+          variant="caption"
+        >
+          {work.desc}
+        </Typography>
+        {work.github &&
+          <Link
+            href={work.github}
+            target="_blank"
+            rel="noopener"
           >
-            {work.title}
-          </Typography>
-          <Typography
-            color="primary"
-            paragraph
-            variant="caption"
-          >
-            {work.desc}
-          </Typography>
-        </div>
+            <Typography
+              className={classes.githubLink}
+              color="primary"
+              paragraph
+              variant="caption"
+            >
+              GitHub
+            </Typography>
+          </Link>
+        }
       </div>
-    </Link>
+    </div>
   </div>
 ));
 

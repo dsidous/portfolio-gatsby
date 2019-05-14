@@ -2,14 +2,23 @@ export default [
   {
     image: require("../../images/work/moviesearch.jpg"),
     title: 'Movie database',
-    desc: 'Development - React, GraphQL + Apollo, Bootstrap, SCSS, Firebase authentication and database, TMDB webAPI',
+    desc: 'Development - React, GraphQL + Apollo, Bootstrap, SCSS, Firebase authentication and database, TMDB webAPI, Responsive design',
     url: 'https://movie-search.tamasjonas.com',
+    github: 'https://github.com/dsidous/react-movie-search'
+  },
+  {
+    image: require("../../images/work/portfolio.jpg"),
+    title: 'Portfolio',
+    desc: 'Development - React, Gatsby, Material-UI, JSS, Responsive design',
+    url: '#',
+    github: 'https://github.com/dsidous/portfolio-gatsby'
   },
   {
     image: require("../../images/work/articleeditor.jpg"),
     title: 'Article editor',
-    desc: 'Development - React, Material-UI',
+    desc: 'Development - React, Material-UI, JSS, Responsive design',
     url: 'http://article-editor2.s3-website-us-east-1.amazonaws.com/',
+    github: 'https://github.com/dsidous/mobula'
   },
   {
     image: require("../../images/thumbs/bodensw_thumb_400.jpg"),
