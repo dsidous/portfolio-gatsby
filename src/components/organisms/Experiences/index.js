@@ -22,7 +22,7 @@ const Experiences = ({ light }) => {
         component="h4"
         variant="body2"
       >
-        What I love to do
+        
       </Typography>
     </>
   );
